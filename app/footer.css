@@ -1,0 +1,42 @@
+.contact {
+    background-color: black;
+    
+    .col-4{
+      padding: 2rem;
+    }
+    aside {
+      text-align: center;
+  
+      h3 {
+        color: white;
+        
+      }
+  
+      a {
+        text-decoration: none;
+        color: white;
+  
+        &.social {
+          svg {
+            width: 2rem;
+            height: 2rem;
+          }
+        }
+      }
+    }
+    .social{
+      padding: 0.5rem;
+      
+    }
+  }
+  
+  @media screen and (max-width: 480px){
+    #fot{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+
+    }
+  }
